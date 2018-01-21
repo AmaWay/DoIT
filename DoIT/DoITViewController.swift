@@ -12,8 +12,14 @@ class DoITViewController: UITableViewController {
     
     var itemArray = ["Find Mike","Learn Swift","Go to Tuscany"]
     
+    let defaults = UserDefaults.standard
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if let items = defaults.array(forKey: "DoITListArray") as? [String] {
+            itemArray = items
+        }
         
     }
     
@@ -67,6 +73,7 @@ class DoITViewController: UITableViewController {
             //What will happen once the user clicks the Add Item button on UIAlert
             
             self.itemArray.append(newItemText.text!)
+            self.defaults.set(self.itemArray, forKey: "DoITListArray")
             self.tableView.reloadData()
             
         }
