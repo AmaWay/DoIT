@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		FDF3D99B201433C200AA4D98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D99A201433C200AA4D98 /* AppDelegate.swift */; };
-		FDF3D99D201433C200AA4D98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D99C201433C200AA4D98 /* ViewController.swift */; };
 		FDF3D9A0201433C200AA4D98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D99E201433C200AA4D98 /* Main.storyboard */; };
 		FDF3D9A3201433C200AA4D98 /* DoIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D9A1201433C200AA4D98 /* DoIT.xcdatamodeld */; };
 		FDF3D9A5201433C200AA4D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D9A4201433C200AA4D98 /* Assets.xcassets */; };
 		FDF3D9A8201433C200AA4D98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDF3D9A6201433C200AA4D98 /* LaunchScreen.storyboard */; };
+		FDF3D9B02014350B00AA4D98 /* DoITViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF3D9AF2014350B00AA4D98 /* DoITViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FDF3D997201433C200AA4D98 /* DoIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDF3D99A201433C200AA4D98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDF3D99C201433C200AA4D98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FDF3D99F201433C200AA4D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDF3D9A2201433C200AA4D98 /* DoIT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoIT.xcdatamodel; sourceTree = "<group>"; };
 		FDF3D9A4201433C200AA4D98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDF3D9A7201433C200AA4D98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDF3D9A9201433C200AA4D98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF3D9AF2014350B00AA4D98 /* DoITViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoITViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				FDF3D99A201433C200AA4D98 /* AppDelegate.swift */,
-				FDF3D99C201433C200AA4D98 /* ViewController.swift */,
+				FDF3D9AF2014350B00AA4D98 /* DoITViewController.swift */,
 				FDF3D99E201433C200AA4D98 /* Main.storyboard */,
 				FDF3D9A4201433C200AA4D98 /* Assets.xcassets */,
 				FDF3D9A6201433C200AA4D98 /* LaunchScreen.storyboard */,
@@ -139,8 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDF3D99D201433C200AA4D98 /* ViewController.swift in Sources */,
 				FDF3D9A3201433C200AA4D98 /* DoIT.xcdatamodeld in Sources */,
+				FDF3D9B02014350B00AA4D98 /* DoITViewController.swift in Sources */,
 				FDF3D99B201433C200AA4D98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFU9N8R44W;
 				INFOPLIST_FILE = DoIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.AmaWay.DoIT;
@@ -293,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YFU9N8R44W;
 				INFOPLIST_FILE = DoIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.AmaWay.DoIT;
